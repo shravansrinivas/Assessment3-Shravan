@@ -29,7 +29,7 @@ public void manageStock()
 		stkUpdateItem();
 		break;
 	case 3:
-		System.out.println("Invalid Choice!Try again");
+		//System.out.println("Invalid Choice!Try again");
 		stkCtrl=false;
 		break;
 	default:
@@ -80,7 +80,10 @@ else {
 		break;
 
 	case 2:
+		List<inSales> forSales;
 		manage.manageSales();
+		System.out.println("\t\t\t\tBYE..Have a nice day");
+		
 		break;
 	case 3:
 		System.out.println("\t\t\t\tBYE..Have a nice day");
